@@ -3,8 +3,8 @@ People detection and removal in inventory images using Yolov11 and SimpleInpaint
 <!-- antes  de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
 # Nome do projeto
 
-#### Aluno: [Nome](https://github.com/link_do_github)
-#### Orientadora: [Nome Sobrenome](https://github.com/link_do_github).
+#### Aluno: [Everton Ferreira dos Santos](https://github.com/evrttn)
+#### Orientadora: [Vitor Bento de Sousa](https://github.com/link_do_github).
 #### Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
 
 ---
@@ -64,7 +64,7 @@ Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis
 
 ---
 
-Matrícula: 123.456.789
+Matrícula: 241.100.461
 
 Pontifícia Universidade Católica do Rio de Janeiro
 
