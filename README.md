@@ -1,5 +1,3 @@
-# detect-remove-people
-Detecção, segmentação e remoção de pessoas em imagens de inventário.
 <!-- antes  de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
 # Detecção, segmentação e remoção de pessoas em imagens de inventário.
 
