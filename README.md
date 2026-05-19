@@ -1,7 +1,7 @@
 # detect-remove-people
 Detecção, segmentação e remoção de pessoas em imagens de inventário.
 <!-- antes  de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
-# Nome do projeto
+# Detecção, segmentação e remoção de pessoas em imagens de inventário.
 
 #### Aluno: [Everton Ferreira dos Santos](https://github.com/evrttn)
 #### Orientador: [Vitor Bento de Sousa](https://github.com/link_do_github)
@@ -12,12 +12,6 @@ Trabalho apresentado ao curso [VC MASTER](https://ica.puc-rio.ai/vc-master) como
 
 <!-- para os links a seguir, caso os arquivos estejam no mesmo repositório que este README, não há necessidade de incluir o link completo: basta incluir o nome do arquivo, com extensão, que o GitHub completa o link corretamente -->
 - [Link para o código](https://github.com/evrttn/detect-remove-people). <!-- caso não aplicável, remover esta linha -->
-
-- [Link para a monografia](https://link_da_monografia.com). <!-- caso não aplicável, remover esta linha -->
-
-- Trabalhos relacionados: <!-- caso não aplicável, remover estas linhas -->
-    - [Nome do Trabalho 1](https://link_do_trabalho.com).
-    - [Nome do Trabalho 2](https://link_do_trabalho.com).
 
 ---
 
