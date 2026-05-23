@@ -17,7 +17,9 @@ Trabalho apresentado ao curso [VC MASTER](https://ica.puc-rio.ai/vc-master) como
 
 <!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
 Este trabalho objetivou remover pessoas ou parte de pessoas nas imagens retiradas durante o inventário
-patrimonial na Universidade Estadual de Campinas (Unicamp). A região de interesse foi detectada e segmentada usando Yolov11, a máscara de segmentação foi dilatada e empregada para apagar a pessoa na imagem original, que depois foi restaurada usando o algoritmo SimpleLaMa de preenchimento de imagens (image inpainting).
+patrimonial na Universidade Estadual de Campinas (Unicamp). A região de interesse foi detectada e segmentada usando Yolov11, a máscara de segmentação foi dilatada e empregada para apagar a região da pessoa na imagem original, que depois foi restaurada usando o algoritmo SimpleLaMa de preenchimento de imagens (image inpainting).
+
+A área removida e a complexidade do fundo a sua volta influenciaram na qualidade da restauração obtida.
 
 ### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
 
