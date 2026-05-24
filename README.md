@@ -16,10 +16,8 @@ Trabalho apresentado ao curso [VC MASTER](https://ica.puc-rio.ai/vc-master) como
 ### Resumo
 
 <!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
-Este trabalho objetivou remover pessoas ou parte de pessoas nas imagens retiradas durante o inventário
-patrimonial na Universidade Estadual de Campinas (Unicamp). A região de interesse foi detectada e segmentada usando Yolov11, a máscara de segmentação foi dilatada e empregada para apagar a região da pessoa na imagem original, que depois foi restaurada usando o algoritmo SimpleLaMa de preenchimento de imagens (image inpainting).
-
-A área removida e a complexidade do fundo a sua volta influenciaram na qualidade da restauração obtida.
+Este trabalho objetivou remover pessoas ou parte de pessoas em imagens do inventário
+patrimonial na Universidade Estadual de Campinas (Unicamp). A região detectada e segmentada foi apagada na imagem original, que depois foi restaurada usando o algoritmo SimpleLaMa de preenchimento de imagens (image inpainting). O tamanho da área removida e a complexidade do fundo a sua volta influenciaram na qualidade da saída obtida.
 
 ### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
 
@@ -33,9 +31,10 @@ Donec molestie, ante quis tempus consequat, mauris ante fringilla elit, euismod 
 
 ### 1. Introdução
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
-
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+Facilidade de tirar foto com smartphones.
+800 mil imagens
+LGPD
+velocidade e a100 do colab
 
 ### 2. Modelagem
 
