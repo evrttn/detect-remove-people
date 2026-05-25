@@ -46,7 +46,7 @@ Afim de previnir futuros custos processuais, usou-se o Yolov11 para investigar q
 
 <p align="center">
 <br>
-  <img src="imagens/fluxo2.png">
+  <img src="imagens/fluxo2b.png">
   <br><b>Figura 3 </b>
 </p>
 ### 3. Resultados
