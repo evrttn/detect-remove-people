@@ -15,26 +15,19 @@ Trabalho apresentado ao curso [VC MASTER](https://ica.puc-rio.ai/vc-master) como
 
 ### Resumo
 
-<!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
 Este trabalho objetivou remover pessoas ou parte de pessoas em imagens do inventário
 patrimonial na Universidade Estadual de Campinas (Unicamp). A região detectada e segmentada foi apagada na imagem original, que depois foi restaurada usando o algoritmo SimpleLaMa de preenchimento de imagens (image inpainting). O tamanho da área removida e a complexidade do fundo a sua volta influenciaram na qualidade da saída obtida.
 
-### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
+### Abstract 
 
-<!-- trocar o texto abaixo pelo resumo do trabalho, em inglês -->
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
-
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
-
-Donec molestie, ante quis tempus consequat, mauris ante fringilla elit, euismod hendrerit leo erat et felis. Mauris faucibus odio est, non sagittis urna maximus ut. Suspendisse blandit ligula pellentesque tincidunt malesuada. Sed at ornare ligula, et aliquam dui. Cras a lectus id turpis accumsan pellentesque ut eget metus. Pellentesque rhoncus pellentesque est et viverra. Pellentesque non risus velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+This work aimed to remove people or parts of people from images in the asset inventory of the University of Campinas. The detected and segmented region was erased from the original image, which was then restored using the SimpleLaMa image inpainting algorithm. The size of the removed area and the complexity of the surrounding background influenced the quality of the resulting output.
 
 ### 1. Introdução
+O avanço da tecnologia possibilitou o baratemamento e o amplo acesso à fotografia. Tirar fotos deixou de ser algo caro e demorado para uma atividade barata, fácil e cotidiana. Porém, é preciso conhecer e seguir algumas boas práticas quando se é contratado para fotografar bens materiais de uma instituição, como isolar e centralizar o objeto, iluminação adequada e resolução que permita avaliar o estado de conservação.
 
-Facilidade de tirar foto com smartphones.
-800 mil imagens
-LGPD
-velocidade e a100 do colab
+Acontece que a universidade contratou, por meio de licitação pública, uma empresa para realizar o inventário e venceu aquela que ofertou o menor preço. Pagar pouco pelo serviço pode parecer o ideal no primeiro momento mas esconde problemas que vão aparecer no futuro. Ficou claro, só de olhar algumas das imagens entregues, que o quadro de funcionários da empresa consistia, em sua maioria, de amadores mal pagos. Tivemos mãos, calçados e até perna inteira do fotógrafo aparecendo na imagem (FIGURA 1). E os casos mais graves foram aqueles onde terceiros foram fotografados sem permissão ou consentimento, o que poderia gerar processos à Unicamp por infringir a LGPD.
+
+Afim de previnir futuros custos processuais, usou-se o Yolov11 para investigar quais das mais de 800 mil fotos do banco de dados tinham pessoas. O Yolov11 foi escolhido por sua capacidade de detectar objetos em tempo real e, em conjunto com a máquina A100 do Google Colab, foi possível percorrer todas as imagens em tempo aceitável.
 
 ### 2. Modelagem
 
