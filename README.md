@@ -29,8 +29,11 @@ Acontece que a universidade contratou, por meio de licitação pública, uma emp
 
 Afim de previnir futuros custos processuais, usou-se o Yolov11 para investigar quais das mais de 800 mil fotos do banco de dados tinham pessoas. O Yolov11 foi escolhido por sua capacidade de detectar objetos em tempo real e, em conjunto com a máquina A100 do Google Colab, percorrer todas as imagens em tempo aceitável.
 
-![Figura 1. Exemplos](imagens/figura1.png)
-
+<p align="center">
+<br>
+  <img src="imagens/figura1.png">
+  <br><b>Figura 1 - Fotos de bens com pessoas ou partes de pessoas</b>
+</p>
 
 ### 2. Modelagem
 
