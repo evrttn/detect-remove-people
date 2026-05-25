@@ -1,5 +1,5 @@
 <!-- antes  de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
-# Detecção, segmentação e remoção de pessoas em imagens de inventário.
+# Remoção de pessoas em imagens de inventário.
 
 #### Aluno: [Everton Ferreira dos Santos](https://github.com/evrttn)
 #### Orientador: [Vitor Bento de Sousa](https://github.com/link_do_github)
@@ -25,9 +25,12 @@ This work aimed to remove people or parts of people from images in the asset inv
 ### 1. Introdução
 O avanço da tecnologia possibilitou o baratemamento e o amplo acesso à fotografia. Tirar fotos deixou de ser algo caro e demorado para uma atividade barata, fácil e cotidiana. Porém, é preciso conhecer e seguir algumas boas práticas quando se é contratado para fotografar bens materiais de uma instituição, como isolar e centralizar o objeto, iluminação adequada e resolução que permita avaliar o estado de conservação.
 
-Acontece que a universidade contratou, por meio de licitação pública, uma empresa para realizar o inventário e venceu aquela que ofertou o menor preço. Pagar pouco pelo serviço pode parecer o ideal no primeiro momento mas esconde problemas que vão aparecer no futuro. Ficou claro, só de olhar algumas das imagens entregues, que o quadro de funcionários da empresa consistia, em sua maioria, de amadores mal pagos. Tivemos mãos, calçados e até perna inteira do fotógrafo aparecendo na imagem (FIGURA 1). E os casos mais graves foram aqueles onde terceiros foram fotografados sem permissão ou consentimento, o que poderia gerar processos à Unicamp por infringir a LGPD.
+Acontece que a universidade contratou, por meio de licitação pública, uma empresa para realizar o inventário e venceu aquela que ofertou o menor preço. Pagar pouco pelo serviço pode parecer o ideal no primeiro momento mas esconde problemas que vão aparecer no futuro. Ficou claro, só de olhar algumas das imagens entregues, que o quadro de funcionários da empresa consistia, em sua maioria, de amadores mal pagos. Tivemos mãos, calçados e até perna inteira do fotógrafo aparecendo na imagem (Figura 1). E os casos mais graves foram aqueles onde terceiros foram fotografados sem permissão ou consentimento, o que poderia gerar processos à Unicamp por infringir a LGPD e direitos de imagem.
 
-Afim de previnir futuros custos processuais, usou-se o Yolov11 para investigar quais das mais de 800 mil fotos do banco de dados tinham pessoas. O Yolov11 foi escolhido por sua capacidade de detectar objetos em tempo real e, em conjunto com a máquina A100 do Google Colab, foi possível percorrer todas as imagens em tempo aceitável.
+Afim de previnir futuros custos processuais, usou-se o Yolov11 para investigar quais das mais de 800 mil fotos do banco de dados tinham pessoas. O Yolov11 foi escolhido por sua capacidade de detectar objetos em tempo real e, em conjunto com a máquina A100 do Google Colab, percorrer todas as imagens em tempo aceitável.
+
+![Figura 1. Exemplos](imagens/figura1.png)
+
 
 ### 2. Modelagem
 
