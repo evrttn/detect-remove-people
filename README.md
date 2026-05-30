@@ -23,7 +23,7 @@ patrimonial na Universidade Estadual de Campinas (Unicamp). A região detectada 
 This work aimed to remove people or parts of people from images in the asset inventory of the University of Campinas. The detected and segmented region was erased from the original image, which was then restored using the SimpleLaMa image inpainting algorithm. The size of the removed area and the complexity of the surrounding background influenced the quality of the resulting output.
 
 ### 1. Introdução
-O avanço da tecnologia possibilitou o baratemamento e o amplo acesso à fotografia. Tirar fotos deixou de ser algo caro e demorado para uma atividade barata, fácil e cotidiana. Porém, é preciso conhecer e seguir algumas boas práticas quando se é contratado para fotografar bens materiais de uma instituição, como isolar e centralizar o objeto, iluminação adequada e resolução que permita avaliar o estado de conservação.
+O avanço da tecnologia possibilitou o baratemamento e o amplo acesso à fotografia. Tirar fotos deixou de ser algo caro e demorado para uma atividade barata, fácil e cotidiana. Porém, é preciso conhecer e seguir algumas boas práticas quando se é contratado para fotografar bens materiais de uma instituição, como isolar e centralizar o objeto, iluminação adequada e resolução que permita avaliar o estado de conservação do bem.
 
 Acontece que a universidade contratou, por meio de licitação pública, uma empresa para realizar o inventário e venceu aquela que ofertou o menor preço. Pagar pouco pelo serviço pode parecer o ideal no primeiro momento mas esconde problemas que vão aparecer no futuro. Ficou claro, só de olhar algumas das imagens entregues, que o quadro de funcionários da empresa consistia, em sua maioria, de amadores mal pagos. Tivemos mãos, calçados e até perna inteira do fotógrafo aparecendo na imagem (Figura 1). E os casos mais graves foram aqueles onde terceiros foram fotografados sem permissão ou consentimento, o que poderia gerar processos à Unicamp por infringir a LGPD e direitos de imagem.
 
@@ -46,14 +46,36 @@ Afim de previnir futuros custos processuais, usou-se o Yolov11 para investigar q
 
 <p align="center">
 <br>
-  <img src="imagens/fluxo2c.png">
+  <img src="imagens/fluxo2d.png">
   <br><b>Figura 3 </b>
 </p>
+
 ### 3. Resultados
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
+<p align="center">
+<br>
+  <img src="imagens/otimo.png">
+  <br><b>Figura 4 - Ótimo</b>
+</p>
 
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+<p align="center">
+<br>
+  <img src="imagens/pequeno.png">
+  <br><b>Figura 5 - Pequeno</b>
+</p>
+
+<p align="center">
+<br>
+  <img src="imagens/vulto.png">
+  <br><b>Figura 6 - Vulto</b>
+</p>
+
+<p align="center">
+<br>
+  <img src="imagens/complexo.png">
+  <br><b>Figura 7 - Complexo</b>
+</p>
+
 
 ### 4. Conclusões
 
